@@ -16,8 +16,15 @@ nav ul {
 .dropdown {
     display: none;
     position: absolute;
+    background-color: orange;
+    padding: 0px;
+    margin: 0px;
 }
 
 .drop:hover>ul {
     display: block;
+}
+
+.dropdown li {
+    padding: 5px;
 }
