@@ -1,0 +1,23 @@
+nav li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
+.drop:hover>ul {
+    display: block;
+}
